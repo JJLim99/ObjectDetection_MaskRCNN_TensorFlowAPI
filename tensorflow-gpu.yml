@@ -1,0 +1,28 @@
+name: tensorflow
+ 
+dependencies:
+    - python==3.7
+    - pip>=19.0
+    - jupyter==1.00
+    - scipy
+    - pillow==6.2.1
+    - tqdm==4.40.0
+    - requests==2.22.0
+    - pyyaml==5.2
+    - flask==1.1.1
+    - boto3
+    - pandas==0.25.3
+    - pandas-datareader
+    - matplotlib==3.1.2
+    - scikit-learn==0.22
+    - scikit-image==0.16.2
+    - tensorflow-gpu==1.15
+    - Cython==0.29.14
+    - h5py==2.10.0
+    - keras==2.3.1
+    - IPython==7.10.1
+    - pip:
+        - bayesian-optimization
+        - gym==0.15.4
+        - kaggle==1.5.6
+        
