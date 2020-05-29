@@ -54,9 +54,7 @@ FLAGS = flags.FLAGS
 
 # mask_pixel: dictionary containing class name and value for pixels belog to mask of each class
 # change as per your classes and labeling
-
-# change the following line according to your mask pixel 
-mask_pixel = {'stamp':76}
+mask_pixel = {'detached':76, 'chipped':26}
 
 def dict_to_tf_example(filename,
                        mask_path,
